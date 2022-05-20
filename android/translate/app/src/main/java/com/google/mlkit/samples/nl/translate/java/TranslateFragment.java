@@ -85,7 +85,7 @@ public class TranslateFragment extends Fragment {
     sourceLangSelector.setAdapter(adapter);
     targetLangSelector.setAdapter(adapter);
     sourceLangSelector.setSelection(adapter.getPosition(new TranslateViewModel.Language("en")));
-    targetLangSelector.setSelection(adapter.getPosition(new TranslateViewModel.Language("es")));
+    targetLangSelector.setSelection(adapter.getPosition(new TranslateViewModel.Language("ko")));
     sourceLangSelector.setOnItemSelectedListener(
         new AdapterView.OnItemSelectedListener() {
           @Override

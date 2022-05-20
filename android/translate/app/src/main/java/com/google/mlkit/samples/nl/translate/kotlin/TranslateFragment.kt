@@ -72,7 +72,7 @@ class TranslateFragment : Fragment() {
     sourceLangSelector.adapter = adapter
     targetLangSelector.adapter = adapter
     sourceLangSelector.setSelection(adapter.getPosition(TranslateViewModel.Language("en")))
-    targetLangSelector.setSelection(adapter.getPosition(TranslateViewModel.Language("es")))
+    targetLangSelector.setSelection(adapter.getPosition(TranslateViewModel.Language("ko")))
     sourceLangSelector.onItemSelectedListener = object : OnItemSelectedListener {
       override fun onItemSelected(
         parent: AdapterView<*>?,
